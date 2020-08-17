@@ -16,6 +16,7 @@
 		68C0251C24EAC1F800D338A2 /* Do_ItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0251B24EAC1F800D338A2 /* Do_ItTests.swift */; };
 		68C0252724EAC1F800D338A2 /* Do_ItUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0252624EAC1F800D338A2 /* Do_ItUITests.swift */; };
 		68C0253624EAC37B00D338A2 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 68C0253524EAC37B00D338A2 /* .swiftlint.yml */; };
+		68C0253924EAC8B900D338A2 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0253824EAC8B900D338A2 /* Page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		68C0252624EAC1F800D338A2 /* Do_ItUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Do_ItUITests.swift; sourceTree = "<group>"; };
 		68C0252824EAC1F800D338A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		68C0253524EAC37B00D338A2 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
+		68C0253824EAC8B900D338A2 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		68C0253724EAC69900D338A2 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				68C0253824EAC8B900D338A2 /* Page.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 			files = (
 				68C0250924EAC1F600D338A2 /* ViewController.swift in Sources */,
 				68C0250524EAC1F600D338A2 /* AppDelegate.swift in Sources */,
+				68C0253924EAC8B900D338A2 /* Page.swift in Sources */,
 				68C0250724EAC1F600D338A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
