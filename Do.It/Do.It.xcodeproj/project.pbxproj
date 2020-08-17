@@ -102,6 +102,7 @@
 		68C0250324EAC1F600D338A2 /* Do.It */ = {
 			isa = PBXGroup;
 			children = (
+				68C0253724EAC69900D338A2 /* Onboarding */,
 				68C0250424EAC1F600D338A2 /* AppDelegate.swift */,
 				68C0250624EAC1F600D338A2 /* SceneDelegate.swift */,
 				68C0250824EAC1F600D338A2 /* ViewController.swift */,
@@ -129,6 +130,13 @@
 				68C0252824EAC1F800D338A2 /* Info.plist */,
 			);
 			path = Do.ItUITests;
+			sourceTree = "<group>";
+		};
+		68C0253724EAC69900D338A2 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
