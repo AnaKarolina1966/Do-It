@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		68316BD224EDCC4D0057A1AC /* ButtonAspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68316BD124EDCC4D0057A1AC /* ButtonAspect.swift */; };
 		68316BD824EDD5360057A1AC /* TimerViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68316BD724EDD5360057A1AC /* TimerViewController+extension.swift */; };
+		684D944F24F47F0600869D15 /* OnboardUITest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 684D944E24F47F0600869D15 /* OnboardUITest.swift */; };
 		68C0250524EAC1F600D338A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250424EAC1F600D338A2 /* AppDelegate.swift */; };
 		68C0250724EAC1F600D338A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250624EAC1F600D338A2 /* SceneDelegate.swift */; };
 		68C0250924EAC1F600D338A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250824EAC1F600D338A2 /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		68316BD124EDCC4D0057A1AC /* ButtonAspect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAspect.swift; sourceTree = "<group>"; };
 		68316BD724EDD5360057A1AC /* TimerViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerViewController+extension.swift"; sourceTree = "<group>"; };
+		684D944E24F47F0600869D15 /* OnboardUITest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardUITest.swift; sourceTree = "<group>"; };
 		68C0250124EAC1F600D338A2 /* Do.It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Do.It.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C0250424EAC1F600D338A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68C0250624EAC1F600D338A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -153,6 +155,7 @@
 			children = (
 				68C0252624EAC1F800D338A2 /* Do_ItUITests.swift */,
 				68C0252824EAC1F800D338A2 /* Info.plist */,
+				684D944E24F47F0600869D15 /* OnboardUITest.swift */,
 			);
 			path = Do.ItUITests;
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C0252724EAC1F800D338A2 /* Do_ItUITests.swift in Sources */,
+				684D944F24F47F0600869D15 /* OnboardUITest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
