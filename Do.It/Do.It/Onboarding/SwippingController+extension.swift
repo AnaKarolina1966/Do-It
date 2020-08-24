@@ -22,9 +22,7 @@ extension SwippingController {
                  self.collectionView.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
             }
             
-        }) {(_) in
-            
-        }
+        })
         
     }
 }

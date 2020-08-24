@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		68316BD224EDCC4D0057A1AC /* ButtonAspect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68316BD124EDCC4D0057A1AC /* ButtonAspect.swift */; };
+		68316BD824EDD5360057A1AC /* TimerViewController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68316BD724EDD5360057A1AC /* TimerViewController+extension.swift */; };
 		68C0250524EAC1F600D338A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250424EAC1F600D338A2 /* AppDelegate.swift */; };
 		68C0250724EAC1F600D338A2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250624EAC1F600D338A2 /* SceneDelegate.swift */; };
 		68C0250924EAC1F600D338A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0250824EAC1F600D338A2 /* ViewController.swift */; };
@@ -21,6 +23,9 @@
 		68C0254124EC760700D338A2 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0254024EC760700D338A2 /* Page.swift */; };
 		68C0254324EC8DB200D338A2 /* SwippingController+extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0254224EC8DB200D338A2 /* SwippingController+extension.swift */; };
 		68C0254524EC8F0300D338A2 /* SwippingController+UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0254424EC8F0300D338A2 /* SwippingController+UICollectionView.swift */; };
+		68C0254824ED4D9B00D338A2 /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C0254724ED4D9B00D338A2 /* TimerViewController.swift */; };
+		68C748D924EFF5F4007872E7 /* TodoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C748D824EFF5F4007872E7 /* TodoError.swift */; };
+		68C748DE24EFFC02007872E7 /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C748DD24EFFC02007872E7 /* APIConfig.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		68316BD124EDCC4D0057A1AC /* ButtonAspect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAspect.swift; sourceTree = "<group>"; };
+		68316BD724EDD5360057A1AC /* TimerViewController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimerViewController+extension.swift"; sourceTree = "<group>"; };
 		68C0250124EAC1F600D338A2 /* Do.It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Do.It.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		68C0250424EAC1F600D338A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		68C0250624EAC1F600D338A2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +68,9 @@
 		68C0254024EC760700D338A2 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
 		68C0254224EC8DB200D338A2 /* SwippingController+extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+extension.swift"; sourceTree = "<group>"; };
 		68C0254424EC8F0300D338A2 /* SwippingController+UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwippingController+UICollectionView.swift"; sourceTree = "<group>"; };
+		68C0254724ED4D9B00D338A2 /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
+		68C748D824EFF5F4007872E7 /* TodoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoError.swift; sourceTree = "<group>"; };
+		68C748DD24EFFC02007872E7 /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +130,11 @@
 				68C0250D24EAC1F800D338A2 /* Assets.xcassets */,
 				68C0250F24EAC1F800D338A2 /* LaunchScreen.storyboard */,
 				68C0251224EAC1F800D338A2 /* Info.plist */,
+				68C0254724ED4D9B00D338A2 /* TimerViewController.swift */,
+				68316BD724EDD5360057A1AC /* TimerViewController+extension.swift */,
+				68316BD124EDCC4D0057A1AC /* ButtonAspect.swift */,
+				68C748D824EFF5F4007872E7 /* TodoError.swift */,
+				68C748DD24EFFC02007872E7 /* APIConfig.swift */,
 			);
 			path = Do.It;
 			sourceTree = "<group>";
@@ -308,12 +323,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				68C0253D24EC690700D338A2 /* SwippingController.swift in Sources */,
+				68316BD224EDCC4D0057A1AC /* ButtonAspect.swift in Sources */,
 				68C0254524EC8F0300D338A2 /* SwippingController+UICollectionView.swift in Sources */,
 				68C0254324EC8DB200D338A2 /* SwippingController+extension.swift in Sources */,
 				68C0250924EAC1F600D338A2 /* ViewController.swift in Sources */,
+				68C0254824ED4D9B00D338A2 /* TimerViewController.swift in Sources */,
 				68C0254124EC760700D338A2 /* Page.swift in Sources */,
 				68C0253F24EC70B700D338A2 /* PageCell.swift in Sources */,
+				68C748DE24EFFC02007872E7 /* APIConfig.swift in Sources */,
 				68C0250524EAC1F600D338A2 /* AppDelegate.swift in Sources */,
+				68316BD824EDD5360057A1AC /* TimerViewController+extension.swift in Sources */,
+				68C748D924EFF5F4007872E7 /* TodoError.swift in Sources */,
 				68C0250724EAC1F600D338A2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
