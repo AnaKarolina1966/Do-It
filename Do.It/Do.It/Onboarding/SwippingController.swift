@@ -47,6 +47,13 @@ class SwippingController: UICollectionViewController, UICollectionViewDelegateFl
         let indexPath = IndexPath(item: nextIndex, section: 0)
         pageControls.currentPage = nextIndex
         collectionView?.scrollToItem(at: indexPath, at: .centeredHorizontally, animated: true)
+        if nextIndex == 2 {
+            //Aqui a gente tem que pegar a scene que tá rodando a aplicação
+            guard let scene = UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate else { return }
+            //Ai a gente módifca o rootview controller da window
+            scene.window?.rootViewController = TimerViewController()
+        }
+        
     }
     
     lazy var pageControls: UIPageControl = {
@@ -80,12 +87,23 @@ class SwippingController: UICollectionViewController, UICollectionViewDelegateFl
         let axis = targetContentOffset.pointee.x
         pageControls.currentPage = Int(axis / view.frame.width)
     }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView?.backgroundColor = .mainGreen
         collectionView.register(PageCell.self, forCellWithReuseIdentifier: "cellId")
         collectionView?.isPagingEnabled = true
         setupBottomControls()
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.navigationBar.isHidden = true
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        self.navigationController?.navigationBar.isHidden = false
     }
     
 }

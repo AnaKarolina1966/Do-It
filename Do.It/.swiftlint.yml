@@ -3,5 +3,9 @@ disabled_rules:
 - unused_optional_binding
 - trailing_whitespace
 - colon
+- unused_closure_parameter
+- identifier_name
+- comma
+
 
 
