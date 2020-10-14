@@ -78,7 +78,10 @@ class TimerViewController: UIViewController {
     }()
     
     @objc func configModal() {
-        
+        let modalScreen = ModalTimerConfiguration()
+        modalScreen.modalPresentationStyle = .popover
+        modalScreen.modalTransitionStyle = .coverVertical
+        self.present(modalScreen, animated: true, completion: nil)
     }
     
     override func loadView() {
@@ -96,6 +99,11 @@ class TimerViewController: UIViewController {
         APIConfig.readAllTodos { retorno in
             self.propriedadesTodo = retorno
             print(retorno)
+        }
+        let file = File(name: "todosList", ext: "txt")
+        let body = "Lorem ipsum"
+        if let data = body.encode(to: .utf8) {
+            file.create(content: data)
         }
     }
         
